@@ -7,7 +7,7 @@ body {
   min-height: 95vh;
 }
 .main {
-  flex: 1;
+  /* flex: 1; */
 }
 
 h1 {
@@ -21,7 +21,7 @@ h1 {
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* gap: 20; */
+  gap: 100px;
 }
 
 @media (max-width: 600px) {
@@ -35,17 +35,24 @@ h1 {
 .content img {
   height: 200px;
   width: 300px;
-  margin-right: 50px;
+  /* margin-right: 50px; */
 }
 
 .left {
   display: flex;
+  margin-right: 100px;
+}
+.left img {
+  margin-right: 50px;
+}
+
+.right img {
   margin-right: 50px;
 }
 
 .right {
   display: flex;
-  margin-right: 50px;
+  /* margin-right: 50px; */
 }
 
 footer {
