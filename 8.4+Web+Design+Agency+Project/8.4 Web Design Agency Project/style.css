@@ -47,6 +47,10 @@ h1 {
     height: 300px;
     width: 200px;
   }
+
+  .logo {
+    width: 100px;
+  }
 }
 
 .content img {
