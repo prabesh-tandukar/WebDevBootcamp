@@ -24,7 +24,7 @@ h1 {
   gap: 100px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 680px) {
   h1 {
     font-size: 3rem;
   }
